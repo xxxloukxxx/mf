@@ -1,0 +1,216 @@
+(footprint "ec11-ext"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4 -4 45)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "0177843a-d76d-441d-bf63-8092b26018d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "EC11"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7252cc13-0438-4a01-bce8-fb9ffb653580")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3c5b04a-2243-4529-b2d0-3c11012382dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c9f371a-3af9-413a-b7ca-af1ca63ce8a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 8 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "10ff1974-3c77-4611-8a52-4c54642bdab0")
+	)
+	(fp_line
+		(start -5.5 -1.25)
+		(end -5.5 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "befce824-2031-469b-b4d4-0d141c49c3b5")
+	)
+	(fp_line
+		(start -5.5 -1.25)
+		(end -4.1 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "953ecdd8-4cff-4d38-bd04-1a4ad08c6167")
+	)
+	(fp_line
+		(start -4.1 1.25)
+		(end -5.5 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c2a865ff-afd9-40de-a079-85d2e8c2a69e")
+	)
+	(fp_line
+		(start 4.1 -1.25)
+		(end 5.5 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b5a440a6-8112-489c-ab1e-b079227be62a")
+	)
+	(fp_line
+		(start 5.5 1.25)
+		(end 4.1 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cb5ed46b-f5a0-4955-99ba-1632c6a4a4cc")
+	)
+	(fp_line
+		(start 5.5 1.25)
+		(end 5.5 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b181e956-551d-4e86-9f79-8c3084761a08")
+	)
+	(fp_arc
+		(start -4.1 -1.25)
+		(mid 0 -4.286315)
+		(end 4.1 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ad852baf-52a2-40c9-8231-5ef5de952b58")
+	)
+	(fp_arc
+		(start 4.1 1.25)
+		(mid 0 4.286315)
+		(end -4.1 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1fc9c8d1-6858-403d-97bd-1bca1e7c46f1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(uuid "b1497608-a7fe-4684-a5f5-730e8516a27e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 10.16)
+		(size 1.905 1.905)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "306e57e8-c8f6-4ecf-926b-d4f0acdb2801")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 10.16)
+		(size 1.905 1.905)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ff71ef0-1325-40ef-855a-71bf8e6de9f4")
+	)
+	(pad "3" thru_hole circle
+		(at 7.62 10.16)
+		(size 1.905 1.905)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0d7304b3-f11c-44cf-90ea-15fcba4e995c")
+	)
+	(pad "4" thru_hole roundrect
+		(at 10.16 7.62 90)
+		(size 1.905 1.905)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(uuid "0cdc2a70-a84b-4652-aa1d-df8e08011c8a")
+	)
+	(pad "5" thru_hole roundrect
+		(at 10.16 5.08 90)
+		(size 1.905 1.905)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(uuid "8d3d99c8-8518-4950-a965-6515cf0a6d41")
+	)
+	(group ""
+		(uuid "81e62fe0-e38b-4f41-bde9-4a67984ce5d0")
+		(members "1fc9c8d1-6858-403d-97bd-1bca1e7c46f1" "953ecdd8-4cff-4d38-bd04-1a4ad08c6167"
+			"ad852baf-52a2-40c9-8231-5ef5de952b58" "b181e956-551d-4e86-9f79-8c3084761a08"
+			"b5a440a6-8112-489c-ab1e-b079227be62a" "befce824-2031-469b-b4d4-0d141c49c3b5"
+			"c2a865ff-afd9-40de-a079-85d2e8c2a69e" "cb5ed46b-f5a0-4955-99ba-1632c6a4a4cc"
+		)
+	)
+	(embedded_fonts no)
+)
