@@ -2025,9 +2025,20 @@
 		)
 		(uuid "ff2923c0-392c-47c3-8cd7-7790e3110293")
 	)
+	(hierarchical_label "5V_LED"
+		(shape output)
+		(at 228.6 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02307492-9daf-4012-89f5-e709aa6f1c45")
+	)
 	(hierarchical_label "LED_BC2"
 		(shape output)
-		(at 170.18 74.93 0)
+		(at 170.18 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2036,9 +2047,20 @@
 		)
 		(uuid "05999d30-a5ee-464a-a84f-6ad1cc1fd5ad")
 	)
+	(hierarchical_label "LED_BC16"
+		(shape output)
+		(at 170.18 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "061f8296-c0de-4134-b8f0-0f3ebdf950c7")
+	)
 	(hierarchical_label "LED_BC6"
 		(shape output)
-		(at 170.18 85.09 0)
+		(at 170.18 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2047,9 +2069,20 @@
 		)
 		(uuid "0f44863b-1d4d-4826-8291-bd2f07d2d98f")
 	)
+	(hierarchical_label "LED_BC10"
+		(shape output)
+		(at 170.18 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "131bc46e-762a-4853-834d-7b576c4ab8e8")
+	)
 	(hierarchical_label "LED_BC5"
 		(shape output)
-		(at 170.18 82.55 0)
+		(at 170.18 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2058,9 +2091,53 @@
 		)
 		(uuid "15220964-3f15-428a-b216-9c22cc348b49")
 	)
+	(hierarchical_label "LED_BC14"
+		(shape output)
+		(at 170.18 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17d980fa-2e05-4a4d-a858-9ad49d72ac1c")
+	)
+	(hierarchical_label "LED_BC11"
+		(shape output)
+		(at 170.18 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "232a2f99-6b6c-4810-a7af-b8b8ed35aa0b")
+	)
+	(hierarchical_label "LED_BC12"
+		(shape output)
+		(at 170.18 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24339f0d-a7a7-435f-acce-3a86b97c91ed")
+	)
+	(hierarchical_label "LED_BC18"
+		(shape output)
+		(at 241.3 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c160462-0fbe-4fb2-91e9-0930927b0a97")
+	)
 	(hierarchical_label "LED_BC7"
 		(shape output)
-		(at 170.18 87.63 0)
+		(at 170.18 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2071,7 +2148,7 @@
 	)
 	(hierarchical_label "LED_BC1"
 		(shape output)
-		(at 170.18 72.39 0)
+		(at 170.18 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2080,9 +2157,20 @@
 		)
 		(uuid "39aaf5fb-6cf3-4cec-9384-3d6cf3d380d8")
 	)
+	(hierarchical_label "LED_BC8"
+		(shape output)
+		(at 170.18 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5263351b-5c96-4dd1-b9fc-552205abac97")
+	)
 	(hierarchical_label "LED_BC4"
 		(shape output)
-		(at 170.18 80.01 0)
+		(at 170.18 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2137,7 +2225,7 @@
 	)
 	(hierarchical_label "LED_BC3"
 		(shape output)
-		(at 170.18 77.47 0)
+		(at 170.18 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2156,6 +2244,17 @@
 			(justify left)
 		)
 		(uuid "a3c88d44-e11d-4041-b8c7-553a54db8b6c")
+	)
+	(hierarchical_label "LED_BC20"
+		(shape output)
+		(at 241.3 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be221e32-1c5e-4636-b7df-279acc4bcb6e")
 	)
 	(hierarchical_label "O_8_CS"
 		(shape input)
@@ -2179,6 +2278,17 @@
 		)
 		(uuid "c60a84ca-5a3c-4c58-aab1-deba2aee342e")
 	)
+	(hierarchical_label "LED_BC17"
+		(shape output)
+		(at 241.3 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce03d3bf-3173-4af4-99d7-67bfb9f46c99")
+	)
 	(hierarchical_label "O_LATCH"
 		(shape input)
 		(at 264.16 106.68 0)
@@ -2189,6 +2299,50 @@
 			(justify left)
 		)
 		(uuid "e2bfb7fd-f55f-4b13-a7ec-72498deefe68")
+	)
+	(hierarchical_label "LED_BC9"
+		(shape output)
+		(at 170.18 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e581ab9b-bbb1-4cc0-8061-931967ab3a06")
+	)
+	(hierarchical_label "LED_BC19"
+		(shape output)
+		(at 241.3 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8109011-0daf-4432-adcd-c15c6c6c5dd9")
+	)
+	(hierarchical_label "LED_BC13"
+		(shape output)
+		(at 170.18 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0ad24d3-9464-440e-b836-eed990091ee4")
+	)
+	(hierarchical_label "LED_BC15"
+		(shape output)
+		(at 170.18 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd08404d-e611-4486-9c74-ad71c9ecf470")
 	)
 	(hierarchical_label "O_8_DIN"
 		(shape input)
