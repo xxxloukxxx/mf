@@ -2687,7 +2687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1db841a5-91ef-44e4-b391-a76da4369add")
-		(property "Reference" "C6"
+		(property "Reference" "C10"
 			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2751,7 +2751,7 @@
 		(instances
 			(project "mf"
 				(path "/12465328-c9f8-4b9f-925c-d562e2f7e62f/07bcd1df-bef5-4937-a043-adff33d82641"
-					(reference "C6")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3293,7 +3293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74930cc2-e74d-4d8f-a8c3-58264ca24195")
-		(property "Reference" "C4"
+		(property "Reference" "C9"
 			(at 139.7 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3357,7 +3357,7 @@
 		(instances
 			(project "mf"
 				(path "/12465328-c9f8-4b9f-925c-d562e2f7e62f/07bcd1df-bef5-4937-a043-adff33d82641"
-					(reference "C4")
+					(reference "C9")
 					(unit 1)
 				)
 			)
