@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-132.3877305768768
+125.7529377150863
  22
-90.90037080999154
+106.783703937518
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-148.7282708624189
+248.5623736371016
  41
 1.697368421052632
  42
@@ -2235,7 +2235,7 @@ AcDbLayerTableRecord
   2
 0
  70
-    0
+    4
  62
     7
   6
@@ -2279,7 +2279,7 @@ AcDbLayerTableRecord
   2
 Other
  70
-    0
+    4
  62
     6
   6
@@ -2301,7 +2301,7 @@ AcDbLayerTableRecord
   2
 construction
  70
-    0
+    4
  62
     2
   6
