@@ -55,11 +55,11 @@
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
-          "hatch_gap": 1.5,
+          "hatch_gap": 0.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 1.0,
+          "hatch_thickness": 0.5,
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
@@ -116,9 +116,9 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -162,7 +162,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -678,7 +678,7 @@
         "uuid": "12465328-c9f8-4b9f-925c-d562e2f7e62f"
       }
     ],
-    "used_designators": "#PWR41,#PWR44,#PWR47,#PWR74-75",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
